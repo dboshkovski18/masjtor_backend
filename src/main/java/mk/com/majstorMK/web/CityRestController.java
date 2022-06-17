@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/city")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://majstor-frontend.herokuapp.com")
 @AllArgsConstructor
 public class CityRestController {
 
